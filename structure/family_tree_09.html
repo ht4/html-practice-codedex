@@ -1,0 +1,81 @@
+<!-- Parents & Children
+The elements in our HTML file are arranged much like a family tree. Most individual elements can be parents with one or more child elements.
+
+For example:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <p>Well, <i>howdy</i> there!</p>
+  </body>
+</html>
+
+Here are some relationships:
+
+<head> and <body> are children of <html>.
+<title> is the child of <head>.
+<i> is child of <p> and grandkid of <body>.
+Now, what’s the relationship between <i> and <title>? Haha kidding.
+
+# Siblings
+Elements can also be siblings if they share a direct parent element. Take this unordered list, for instance:
+
+<body>
+  <ul>
+    <li>🍄 Mario</li>
+    <li>🐢 Luigi</li>
+  </ul>
+</body>
+
+The two <li> elements are siblings because both are children of the same parent, the <ul> element.
+
+Instructions
+"The apple doesn't fall far from the tree."
+
+Create a family_tree.html file for your family using list elements such as <ul> and <li> elements. 👨‍👩‍👧‍👦
+
+If you are stuck, try doing one for the British Royal Family, the Kardashians, or the Simpsons.
+
+Once you are done, ask yourself:
+
+Which elements are parents?
+Which elements are children?
+Which elements are siblings?
+Note: Remember to set up your web page properly. (<!DOCTYPE html>, <html>, etc.) -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     Incas_tree_family
+    </title>
+  </head>
+  <body>
+    <h1>
+      Incas tree family
+    </h1>
+    <h2>
+      Túpac Inca Yupanqui family
+    </h2>
+    <ul>
+      <li>Túpac Inca Yupanqui 
+      <ul>
+        <li>Huayna Cápac
+        <ul>
+          <li>Huáscar </li>
+          <li>Atahualpa</li>
+        </ul>
+        </li>
+       </ul>
+      </li>
+    </ul>
+    <p>
+      The first element, Túpac Inca Yupanqui, is the parent of Huayna Cápac. Huáscar and Atahualpa are siblings and children of Huayna Cápac.
+    </p>
+
+
+  </body>
+</html>
